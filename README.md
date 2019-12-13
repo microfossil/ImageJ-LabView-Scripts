@@ -9,4 +9,6 @@ In this repository are stored *ImageJ* scripts that were developed for automated
 
 **Ni Vision / LabView Scripts**
 
-* **PoreViewG.vascr**: Automated processing of images of crushed benthic foraminifera *Globobulimina* species that will binarise the original images, reconstruct the tests' fragments and measure their porosity. It will export the results in a table. The .zip file contain the .vascr script and a .docx description of the script.
+* **PoreViewG.vascr**: Automated processing of images of crushed benthic foraminifera *Globobulimina* species that will binarise the original images (a and b), reconstruct the tests' fragments and measure their porosity(c). It will export the results in a table. The .zip file contain the .vascr script and a .docx description of the script.
+
+![alt text](https://theguyonhismicroscope.files.wordpress.com/2019/12/sans-titre.jpg?w=2046 "PoreViewG steps")
