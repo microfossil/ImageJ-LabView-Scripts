@@ -26,6 +26,7 @@ for (i = 0; i < subFolderList.length; i++) {
                         run("Set Scale...", "distance=0 known=0 pixel=1 unit=pixel"); //Removes the predifined scale if any
                         run("Subtract Background...", "rolling=50 light sliding disable"); //Removes the blurry dots on the image background
                         setMinAndMax(0, 245); //Adjusts the contrast of the image (makes the background lighter)
+                        run("Apply LUT");
                         run("Duplicate...", "title=processed"); //Duplicate the original image
                         selectWindow(FOV_name);
                         run("Invert"); //Inverts the original image
